@@ -1,0 +1,39 @@
+.main {
+    background-color: $first;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px rgba(78, 108, 129, .5);
+}
+.main__title {
+    color: $light;
+    font-size: 32px;
+}
+.service__title {
+    color: $second;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $second;
+    color: $first;
+    font-size: 40px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    border: 12px solid $light;
+    border-radius: 20px;
+}
+.service__text {
+    color: $second;
+    line-height: 2;
+}
+@media (min-width: 768px) {
+    .services {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+}

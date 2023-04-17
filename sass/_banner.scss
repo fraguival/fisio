@@ -1,0 +1,23 @@
+.banner {
+    position: relative;
+    margin-bottom: 12px;
+}
+.banner::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.banner__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: $second;
+}
+.btn--banner {
+    background-color: $first;
+}

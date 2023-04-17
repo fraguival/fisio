@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $first;
+    color: $second;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 12px;
+}
+.footer__name {
+    font-size: 28px;
+}
