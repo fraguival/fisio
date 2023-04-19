@@ -14,7 +14,7 @@ const app = document.getElementById('typewriter')
         delay: 75
     })
     typewriter
-        .typeString('La Reyna de la Fisioterapia')
+        .typeString('La mera mera de la Fisioterapia')
         .pauseFor(200)
         .start()
 
